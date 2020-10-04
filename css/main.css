@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style:none ;
+}
+.wrapper{
+    overflow-x: hidden;
+}
+
+.btn{
+    background-color: #009CDE;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    
+}
+body{
+    font-family: 'Asap', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: #5573A7;
+    position: sticky;
+    
+}
+.logo{
+    color: black;
+    border: black 1px solid;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+.ul-1{
+    justify-content: space-around;
+    width: 40%;
+}
+.ul-2{
+    justify-content: space-around;
+    width: 20%;
+}
+
+nav ul li{
+   
+    list-style: none;
+}
+.booking{
+    margin-top: 2%;
+}
+
+.booking-container{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+   
+   
+}
+
+.autum{
+    margin-top: 2%;
+}
+
+.autum img{
+   max-width: 100%;
+}
+
+.autum-2-container{
+    line-height: 4rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1; */
+}
+
+.autum-2 h1{
+    color: #009CDE;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.autum-2 a{
+    text-decoration: none;
+    background-color: #5573A7;
+    color: #fff;
+}
+.offers{
+    margin-top: 4%;
+    background-color: #71c7ec;
+    height: 40vh;
+   
+}
+.offers-wrapper{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+   
+}
+
+.offers-left h2{
+   color: #36507c;
+}
+
+.offers-right img{
+    height: 26vh;
+    width: 30vh;
+    align-items: center;
+}
+
+.offers-right{
+    display: flex;
+}
+.youtube-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.i-frame{
+    width: 700px;
+    height: 318px;
+}
+.youtube-content{
+    text-align: center;
+    align-items: center;
+    line-height: 3rem;
+}
+.youtube-content h1{
+    font-size: 3rem;
+    color: #5573A7;
+}
+.youtube-content a{
+    text-decoration: none;
+}  
+
+.honors-strip{
+    height: 10vh;
+   background-color: rgb(238, 231, 231);
+}
+.strip-wrapper{
+    padding-top: 3vh;
+  align-items: center;
+    align-items: center;
+}
+.strip-wrapper ul{
+   
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.strip-wrapper li{
+    list-style: none;
+    color: #36507c;
+}
+.strip-wrapper li:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #36507c;
+}
+.honors-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.honors-left img{
+    height: 60vh;
+    width: 700px;
+}
+.honors-right{
+    padding-top: 20vh;
+    text-align: center;
+    line-height: 3rem;
+}
+.honors-right h1{
+    font-size: 3rem;
+    color: #5573A7;
+}
+
+footer{
+    height: 90vh;
+    background-color: #71c7ec;
+    color: #36507c;
+}
+.social{
+    text-align: center;
+    padding-top: 10vh;
+    
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15vh;
+    line-height: 3rem;
+}
+@media only screen and (max-width: 600px){
+    .ul-1{
+        justify-content: space-around;
+        width: 100%;
+    }
+    .ul-2{
+        justify-content: space-around;
+        width: 50%;
+        display: none;
+      
+    }
+    .booking{
+        display: none;
+    }
+    .autum img{
+       
+        /* height: 30vh; */
+    }
+    .autum-2-container{
+        line-height: 3rem;
+    }
+    .autum-2 h1{
+        font-size: 2rem;
+    }
+    .autum-2 h2{
+        font-size: 1.4rem;
+    }
+    .offers{
+        margin-top: 20%;
+        height: 40vh;
+    }
+    .offers-wrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+    .offers-right{
+        display: flex;
+        flex-direction: column;
+    }
+    .offers-2{
+        display: none;
+    }
+    .offers-3{
+        display: none;
+    }
+    .offers-right img{
+        height: 40vh;
+        width: 100%;
+        align-items: center;
+    }
+    .youtube-wrapper{
+        margin-top: 10vh;
+        flex-direction: column-reverse;
+    }
+    .youtube-content h1{
+        font-size: 2rem;
+    }
+    .i-frame{
+        width: 100%;
+    }
+    .honors-wrapper{
+        flex-direction: column;
+    }
+    
+    .honors-left img{
+        height: 40vh;
+        width: 100%;
+    }
+    .footer{
+        height: 200vh;
+    }
+    .footer-container{
+        flex-direction: column;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+}
